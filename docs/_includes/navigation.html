@@ -1,7 +1,7 @@
 <nav>
   <ol id="nav">
   {% for item in site.data.navigation %}
-    <li><a href="{{ item.link }}"{% if page.url == item.link %} class="currentnav"{% endif %}>
+    <li{% if page.url == item.link %} class="currentnav"{% endif %}><a href="{{ item.link }}" title="{{ item.title }}">
       {{ item.name }}
     </a></li>
   {% endfor %}
