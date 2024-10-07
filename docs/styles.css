@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "AR One Sans";
+  font-display: swap;
+  src:
+    url("AROneSans.ttf");
+}
+
+html, body {  margin: 0; padding: 0; }
+
+body {
+  font-family: "AR One Sans", Georgia;
+  max-width:  850px;
+}
+body > header,
+body > main,
+body > footer {
+  margin:     0;
+  padding:    0 1em;
+}
+body > header, body > footer {
+  background: #006072;
+  color:      white;
+}
+body > header > :first-child,
+body > footer > :last-child {
+  margin: 0;
+}
+
+body > header { border-radius: 0 0 100% 0; padding: 0.5em 11em 0.5em 1em; }
+body > footer { border-radius: 0 100% 0 0; padding: 0.5em 1em  0.5em 1em; margin-top: 1em; }
+
+body > header a {
+  color: #f0bb35;
+}
+
+ol#nav {
+  margin: 0;
+  list-style-type: none;
+  font-size: 1.1em;
+}
+ol#nav li {
+  display: inline;
+}
+ol#nav li::after {
+  content: ' | ';
+}
+ol#nav li:first-child::before {
+  content: '[ ';
+}
+ol#nav li:last-child::after {
+  content: ' ] ';
+}
+
+main > article > h2 {
+  color: #006072;
+}
+main > article p {
+  text-align: justify;
+}
+main > article img {
+  margin: 0.5em 0 0.5em 0.5em;
+  float:  right;
+}
+
+article > footer {
+  border-left: 1px dashed #006072;
+  clear: right;
+  padding-left: 0.6em;
+}
+article > footer p {
+  margin: 0;
+  padding: 0;
+}
