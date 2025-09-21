@@ -1,1 +1,1 @@
-# blog2
+# Jekyll powered Blog
