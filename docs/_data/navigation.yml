@@ -1,6 +1,8 @@
 - name: Latest
   link: /
   title: The latest blog posts from Transport for Somerset
+- name: 2026
+  title: The archive of Transport for Somerset articles from the year 2026
 - name: 2025
   link: /2025/
   title: The archive of Transport for Somerset articles from the year 2025 
